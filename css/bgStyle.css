@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'sans-serif';
+
+}
+html {
+    background-color: #f2f2f2;
+    /* bg */
+    /* If you want the bg to be for the full screen */
+    /* background: url(../images/1.jpg) no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    /* animation */
+    /* animation: change 10s infinite ease-in-out; */
+    
+}
+
+.heading {
+    padding: 15px;
+    margin: 0 15px;
+    border-bottom: 4px solid #ec0000;
+    text-align: center;
+    z-index: -5;
+    background-color: #ddd;
+}
+.bg-card {
+    padding: 15px;
+    margin: 20px 15px;
+    width: auto;
+    height: 480px;
+    color:#fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #797878;
+    /* bg */
+    background: url(../images/1.jpg) no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* animation */
+    animation: change 10s infinite ease-in-out;
+    
+   
+   
+
+}
+.bg-card p {
+    font-size: 2.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@keyframes change {
+    0% {
+        background-image: url(../images/2.jpg);
+        opacity: 0.8;
+    }
+    30% {
+        background-image: url(../images/3.jpg);
+        opacity: 0.8;
+
+    }
+    60% {
+        background-image: url(../images/4.jpg);
+        opacity: 0.8;
+
+    }
+    80% {
+        background-image: url(../images/5.jpg);
+        opacity: 0.8;
+
+    }
+}
+
+.end {
+    padding: 50px;
+}
